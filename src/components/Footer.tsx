@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <p className="text-center md:text-left">
-              <span className="font-medium">Vamshi</span>
+              <span className="font-medium">Vamshi Yamsani</span>
               <span className="text-muted-foreground"> • Tech Professional</span>
             </p>
             <p className="text-sm text-muted-foreground mt-1 text-center md:text-left">

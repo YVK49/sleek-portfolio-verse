@@ -82,10 +82,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Email</h3>
                       <a 
-                        href="mailto:contact@vamshi.dev" 
+                        href="mailto:vamshikrishna8330@gmail.com" 
                         className="text-muted-foreground hover:text-foreground transition-colors"
                       >
-                        contact@vamshi.dev
+                        vamshikrishna8330@gmail.com
                       </a>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                       <h3 className="font-medium mb-1">Social Media</h3>
                       <div className="flex gap-4 mt-2">
                         <a 
-                          href="#" 
+                          href="https://github.com/YVK49" 
                           target="_blank" 
                           rel="noopener noreferrer" 
                           className="p-2 bg-background rounded-full hover:bg-foreground hover:text-background transition-colors"
@@ -107,7 +107,7 @@ const Contact = () => {
                           <Github size={18} />
                         </a>
                         <a 
-                          href="#" 
+                          href="https://www.linkedin.com/in/vamshiyamsani/" 
                           target="_blank" 
                           rel="noopener noreferrer" 
                           className="p-2 bg-background rounded-full hover:bg-foreground hover:text-background transition-colors"
@@ -135,7 +135,7 @@ const Contact = () => {
                     I'm available for speaking engagements on topics related to web development, AI automation, and tech education.
                   </p>
                   <a 
-                    href="mailto:speaking@vamshi.dev" 
+                    href="mailto:vamshikrishna8330@gmail.com" 
                     className="inline-flex items-center text-foreground font-medium hover:underline"
                   >
                     Get in touch

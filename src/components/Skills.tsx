@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { 
   Code, Server, Bot, PenTool, CheckCircle2, Zap, 
@@ -16,26 +15,24 @@ const skillsData: Skill[] = [
   // Programming
   { name: "Python", icon: FileCode, category: "Programming", level: 5 },
   { name: "Django", icon: Server, category: "Programming", level: 5 },
-  { name: "JavaScript", icon: Code, category: "Programming", level: 4 },
-  { name: "React", icon: Layout, category: "Programming", level: 4 },
-  { name: "HTML/CSS", icon: Globe, category: "Programming", level: 5 },
-  { name: "TypeScript", icon: Code, category: "Programming", level: 3 },
+  { name: "HTML", icon: Code, category: "Programming", level: 5 },
+  { name: "CSS", icon: Layout, category: "Programming", level: 4 },
+  { name: "JavaScript", icon: Code, category: "Programming", level: 3 },
   
-  // AI Automation
-  { name: "n8n", icon: Zap, category: "AI Automation", level: 5 },
-  { name: "Workflow Design", icon: Bot, category: "AI Automation", level: 5 },
-  { name: "API Integration", icon: Terminal, category: "AI Automation", level: 4 },
-  { name: "Automation", icon: Cpu, category: "AI Automation", level: 5 },
+  // Web Development
+  { name: "Responsive Design", icon: Globe, category: "Web Development", level: 4 },
+  { name: "UI/UX", icon: PenTool, category: "Web Development", level: 3 },
+  { name: "Web Accessibility", icon: CheckCircle2, category: "Web Development", level: 3 },
   
   // Backend Management
-  { name: "Supabase", icon: Database, category: "Backend Management", level: 4 },
-  { name: "RESTful APIs", icon: Server, category: "Backend Management", level: 5 },
   { name: "Database Design", icon: Database, category: "Backend Management", level: 4 },
+  { name: "API Development", icon: Server, category: "Backend Management", level: 4 },
+  { name: "Authentication", icon: CheckCircle2, category: "Backend Management", level: 4 },
   
-  // Content Creation
-  { name: "Technical Writing", icon: PenTool, category: "Content Creation", level: 4 },
-  { name: "Tutorial Creation", icon: PenTool, category: "Content Creation", level: 5 },
-  { name: "Video Content", icon: PenTool, category: "Content Creation", level: 4 },
+  // Tools
+  { name: "Git", icon: Code, category: "Tools", level: 4 },
+  { name: "VSCode", icon: Code, category: "Tools", level: 5 },
+  { name: "Command Line", icon: Terminal, category: "Tools", level: 4 },
 ];
 
 const categories = ["All", ...new Set(skillsData.map(skill => skill.category))];
